@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joseph Olajuwon - Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { margin:0; font-family:Arial, sans-serif; background:#f4f6f9; color:#222; }
+nav { background:#0a192f; padding:15px; display:flex; justify-content:center; gap:15px; }
+nav a { color:white; text-decoration:none; font-size:13px; font-family:Verdana; background:#112240; padding:8px 14px; border:1px solid #1e3a6b; border-radius:20px; }
+header { background:#0a192f; color:white; text-align:center; padding:50px 20px; border-bottom:4px solid #ffc947; }
+header h1 { font-size:32px; margin:0; }
+header h1 span { color:#ffc947; }
+header p { font-size:16px; color:#aaa; margin-top:10px; }
+.btn { display:inline-block; background:#ffc947; color:#0a192f; padding:12px 25px; margin-top:20px; border-radius:25px; text-decoration:none; font-weight:bold; border:2px solid #ffc947; font-size:14px; }
+section { max-width:800px; margin:30px auto; padding:0 15px; }
+.card { background:white; padding:25px; margin-bottom:20px; border-radius:12px; border-left:5px solid #ffc947; width:100%; }
+.card h2 { color:#0a192f; font-size:22px; margin-top:0; }
+ul { line-height:1.8; }
+footer { background:#0a192f; color:#777; text-align:center; padding:20px; margin-top:40px; font-size:13px; }
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#">HOME</a>
+<a href="#about">ABOUT ME</a>
+<a href="#skills">MY SKILLS</a>
+<a href="#projects">MY PROJECTS</a>
+<a href="#contact">CONTACT</a>
+</nav>
+
+<header>
+<h1>JOSEPH <span>OLAJUWON OPEYEMI</span></h1>
+<p>SS3 Student - Lekki Crystal Spring School | Web Developer & AI Consultant</p>
+<a class="btn" href="#contact">Contact Me</a>
+</header>
+
+<section>
+<div class="card" id="about">
+<h2>ABOUT ME</h2>
+<p>Hello! My name is <strong>Joseph Olajuwon Opeyemi</strong>. I am in SS3 at Lekki Crystal Spring School, Lagos.</p>
+<p>I am a web developer and AI consultant and I build SaaS software and apps.</p>
+</div>
+
+<div class="card">
+<h2>My favourite subjects:</h2>
+<ul>
+<li>Economics</li>
+<li>Accounting</li>
+<li>Commerce</li>
+</ul>
+</div>
+
+<div class="card" id="skills">
+<h2>MY SKILLS</h2>
+<ul>
+<li>Web Development - HTML, CSS</li>
+<li>AI Consulting</li>
+<li>SaaS Software & App Building</li>
+</ul>
+<h2 style="margin-top:20px;">My hobbies:</h2>
+<ul>
+<li>Web Development</li>
+<li>Coding</li>
+<li>Football</li>
+<li>Music</li>
+<li>Gaming</li>
+</ul>
+</div>
+
+<div class="card" id="projects">
+<h2>MY PROJECTS</h2>
+<p><strong>Project 1:</strong> This Is Me - Simple HTML</p>
+<p><strong>Project 2:</strong> My Personal Portfolio (This Website)</p>
+<p><strong>Project 3:</strong> Iron Fitness Gym Website</p>
+</div>
+
+<div class="card" id="contact">
+<h2>CONTACT</h2>
+<p><strong>Phone:</strong> 08107738572</p>
+<p><strong>School:</strong> Lekki Crystal Spring School, SS3</p>
+<p><strong>Location:</strong> Lagos, Nigeria</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Joseph Olajuwon Opeyemi - SS3 - Lekki Crystal Spring School</p>
+</footer>
+
+</body>
+</html>
